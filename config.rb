@@ -20,3 +20,7 @@ activate :deploy do |deploy|
   deploy.build_before = true
   deploy.deploy_method = :git
 end
+
+["papillard", "ssaunier", "monsieurpaillard", "cpeh", "werner-sven", "willyder1te", "niklaskuegler"].each do |name|
+  proxy "/flats/#{name}.html", "/flats/show.html", locals: { owner: name }, ignore: true
+end

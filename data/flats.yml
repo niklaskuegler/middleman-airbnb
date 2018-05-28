@@ -1,12 +1,5 @@
-niklaskuegler:
-  name: "Nik's crib"
-  description: "Coolest hood in the western hemisphere"
-  city_name: "World"
-  city_slug: "The Planet"
-  max_guests: "Unlimited"
-  wifi: true
-  rating: 5
-papillard:
+ssaunier:
+  user: ssaunier;
   name: "Boris' home"
   description: Small flat in Tokyo
   city_name: "Tokyo, Japan"
@@ -14,7 +7,19 @@ papillard:
   max_guests: "2 only"
   wifi: true
   rating: 3
+  about_flat: "This one bedroom studio lodges 2 people (there's 1 double bed) it is located in the city center, in a calm traditional residential area near city´s main Avenue - 3 minutes walk from Sacré Coeur."
+papillard:
+  user: papillard;
+  name: "Boris' home"
+  description: Small flat in Tokyo
+  city_name: "Tokyo, Japan"
+  city_slug: "tokyo"
+  max_guests: "2 only"
+  wifi: true
+  rating: 3
+  about_flat: "This one bedroom studio lodges 2 people (there's 1 double bed) it is located in the city center, in a calm traditional residential area near city´s main Avenue - 3 minutes walk from Sacré Coeur."
 monsieurpaillard:
+  user: monsieurpaillard;
   name: Romain's home
   description: Nice flat in Piccadilly
   city_name: "London, UK"
@@ -22,7 +27,9 @@ monsieurpaillard:
   max_guests: "If you want to cudle, 5"
   wifi: true
   rating: 5
+  about_flat: "This one bedroom studio lodges 2 people (there's 1 double bed) it is located in the city center, in a calm traditional residential area near city´s main Avenue - 3 minutes walk from Sacré Coeur."
 cpeh:
+  user: cpeh;
   name: Christian's home
   description: Nice flat in Piccadilly
   city_name: "Berlin, Ger"
@@ -30,8 +37,9 @@ cpeh:
   max_guests: "If you want to cudle, 5"
   wifi: true
   rating: 5
-Hubertus:
-  name: Hubertus's home
+werner-sven:
+  user: werner-sven;
+  name: Sven's home
   description: Nice flat in Piccadilly
   city_name: "Barcelona, Sp"
   city_slug: "barcelona"
@@ -39,10 +47,20 @@ Hubertus:
   wifi: true
   rating:
 willyder1te:
+  user: willyder1te;
   name: Willy's home
   description: Nice flat in Piccadilly
   city_name: "Lisbon, Sp"
   city_slug: "lisbon"
   max_guests: "If you want to cudle, 5"
+  wifi: true
+  rating: 5
+niklaskuegler:
+  user: niklaskuegler;
+  name: "Nik's crib"
+  description: "Coolest hood in the western hemisphere"
+  city_name: "World"
+  city_slug: "The Planet"
+  max_guests: "Unlimited"
   wifi: true
   rating: 5
